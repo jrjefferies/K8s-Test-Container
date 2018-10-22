@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  php:
+    build: ./
+#    volumes: 
+#      - ./html:/var/www/html
+    ports:
+      - '8000:80'
+    environment:
+      - VIRTUAL_HOST=blogsite
+      - HEALTHCHECK1=cakephp-tooling.ocp1.sdn.gb.gsclabs.cc
+      - HEALTHCHECK2=myserver123
+
+
