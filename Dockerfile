@@ -13,4 +13,4 @@ COPY /html/web_health.py /var/www/html/
 #ENV HEALTHCHECK1 cakephp-tooling.ocp1.sdn.gb.gsclabs.cc
 #ENV HEALTHCHECK2 myserver
 
-EXPOSE 80
+EXPOSE 8080

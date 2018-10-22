@@ -6,7 +6,7 @@ services:
 #    volumes: 
 #      - ./html:/var/www/html
     ports:
-      - '8000:80'
+      - '8000:8080'
     environment:
       - VIRTUAL_HOST=blogsite
       - HEALTHCHECK1=cakephp-tooling.ocp1.sdn.gb.gsclabs.cc
