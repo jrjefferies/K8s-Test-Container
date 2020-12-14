@@ -9,12 +9,13 @@ Have Docker and docker-compose installed
 Clone this repo
 
 in docker-compose.yml
-```
+
 * modify the environment varables to point to your servers
-```
 
 from the main directory run the following
+```
  sudo docker-compose up --build -d
+```
 
 To check if
 ```
